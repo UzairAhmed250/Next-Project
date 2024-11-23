@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+.main-parent{
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  /* border: 2px solid black; */
+  background-color: #fff;
+  box-shadow: 0px 0px 24px -6px grey;
+}
+.scond-mother{
+  width: 80%;
+  /* border: 2px solid blue; */
+  margin: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 55px ;
+  
+}
+.left-div {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  font-size: 62px;
+  cursor: pointer;
+  color: #1e3d60;
+}
+.right-div{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 30px;  
+  font-weight: 800;
+  }
+  .links {
+    cursor: pointer;
+  }
+  .links:hover{
+      color: #f99d77;
+  }
+.second-parent{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 30px;
+  
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+.upper-child img{
+  height: 120;
+  width: 600px;
+  border-radius: 50px;
+  margin-top: 25%;
+  
+}
+.temp-div{
+  /* display: block; */
+  /* align-items: center; */
+  margin-top: 100px;
+}
+.upper-child{
+  /* margin-top: 15px; */
+  background-color: white;
+  height: 1100px; 
+}
+.child-text{
+  margin-top: 250px;
+  font-weight: 900;
+  font-size:400%;
+}
+.second-child{
+  font-size: 120%;
+}
+.buttons{
+  gap: 5px;
+  font-weight:bold;
+  letter-spacing: 2px;
+  transition: all .15s linear;
+}
+.button1{
+  background-color: rgb(32,67,127);
+  height: 60px;
+  color: white;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #0f437f;
+  border-radius: 45px;
+  padding-top: 15px;
+  
+}
+.button2{
+  color:rgba(30, 61, 96, 1.0);
+  background-color: rgb(231,234,238);
+  height: 60px;
+  width: 250px;
+  text-align: center;
+  border: rgba(231, 234, 238, 1.0);
+  padding-top: 15px;
+  border-radius: 45px;
+  fill:rgba(30, 61, 96, 1.0);
+}
+.button1:hover{
+  background-color: #1e3d60;
+  cursor: pointer;
+  /* width: 280px; */
+  transform: scale3d(0.96, 0.96, 1.01);
+}
+.button2:hover{
+  background-color: rgba(211, 214, 218, 1.0);
+  cursor: pointer;
+  transform: scale3d(0.96, 0.96, 1.01);
+}
+
+.main-child{
+  background-color: rgb(249,250,251);
+  height: 1500px;
+}
+.dnd-area{
+  /* background-color: rgb(249,250,251); */
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  
+}
+.h2-heading{
+  color: rgb(32,67,127);
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+}
+.main-parent-card{
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 25px;
+  /* width: 100%; */
+}
+
+.parent-card{
+  position: relative;
+  display: inline-block;
+  border-radius: 45px;
+  width: 30%;
+  height: 650px;
+  margin-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 20px;
+  background-color: white;
+}
+.card-image{
+  border-radius: 45px 45px 0px 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.duration-tag{
+  position: absolute;
+  color: rgb(32,67,127);
+  background-color: white;
+  border-radius: 25px;
+  width: 90px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: 12px;
+  padding-top: 10px;
+  text-align: center;
+  margin: 35px 0px 0px 250px;
+  cursor: pointer;
+  
+}
+.price-tag{
+  position: absolute;
+  margin: 35px 0px 0px 350px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(32,67,127);
+  width: 110px;
+  border-radius: 45px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.card-content{
+  
+  margin-left: 50px;
+  /* overflow: hidden; */
+  margin-top: 45px;
+  width: 70%;
+  }
+
+.card-content-head{
+color: rgb(32,67,127);
+font-weight:800;
+font-size: 24px;
+}
+.card-content-mid{
+  margin-top: 15px;
+  color:  rgb(32,67,127);
+  font-weight: 100;
+  width: 70%;
+}
+
+.card-content-bottom{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(32,67,127);
+  margin-right: 120px;
+  font-weight: 800;
+}
+.card-logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 100px ;
+  overflow: hidden;
+}
+
+.bottom-buttom{
+  border-radius: 40px;
+  text-align: center;
+  margin: 50px 45%;
+  color: white;
+  padding-top: 22px;
+  height: 70px;
+  width: 12%;
+  font-weight: bold;
+  background-color: rgb(32, 67, 127);
+  cursor: pointer;
+  transition: all 15s initial;
+}
+.bottom-buttom:hover{
+  background-color: rgba(0, 47, 107, 1.0);
+  transform: scale3d(0.96,0.96,1.01);
+}
+
